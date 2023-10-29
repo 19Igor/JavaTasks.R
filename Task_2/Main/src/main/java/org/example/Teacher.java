@@ -46,10 +46,7 @@ public class Teacher implements Person{
                 assert marks != null;
                 assert fromStudent != null;
 
-
-                for (int mark: marks.getMarks()) {
-                    fromStudent.addMarks(mark);
-                }
+                fromStudent.getMarks().addAll(marks.getMarks());
             }
         }
     }

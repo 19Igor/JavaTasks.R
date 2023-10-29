@@ -5,11 +5,7 @@ import java.util.List;
 
 public class SubjectWithMarks {
     private String objectTitle;
-    private List<Integer> marks = new ArrayList<>();
-
-
-
-
+    private List<Integer> marks;
 
     public void setObjectTitle(String title){
         this.objectTitle = title;

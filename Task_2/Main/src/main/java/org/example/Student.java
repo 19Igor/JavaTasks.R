@@ -39,7 +39,7 @@ public class Student implements Person {
             return;
         }
 
-        subject.marks.addAll(newOne.marks);
+        subject.getMarks().addAll(newOne.getMarks());
     }
 
     private SubjectWithMarks getMarksByObjectTitle(String title){
